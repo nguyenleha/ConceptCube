@@ -1,0 +1,102 @@
+.content__best__product {
+    position: relative;
+    top: -5px;
+    color: #fff;
+    background: url('../../../assets/img/bes_bg.png') no-repeat;
+    height: 1073px;
+
+    .content__product {
+        text-align: center;
+        position: relative;
+        top: 50px;
+        color: #f96400;
+    }
+
+    .product__title {
+        margin: 0 auto;
+        max-width: 463px;
+        height: 37px;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 5px;
+        text-align: center;
+
+    }
+
+    .product__desc {
+        max-width: 665px;
+        height: 52px;
+        margin: 0 auto;
+        margin-top: 49px;
+        font-family: Montserrat;
+        font-size: 19px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+    }
+}
+
+.content__product--item {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 225px;
+    width: 100%;
+
+    .product__item {
+        position: relative;
+
+        .product__image {
+            width: 100%;
+        }
+
+        .product__icon {
+            max-width: 92px;
+            height: 92px;
+            position: absolute;
+            top: -40px;
+            left: -2px;
+        }
+    }
+
+
+
+    .product__item--box {
+        border: 3px solid #020001;
+        width: 70%;
+        height: 80px;
+        position: absolute;
+        bottom: -46px;
+        left: 15%;
+        background-color: #ffff;
+
+        .product__content {
+            color: #020001;
+            width: 100%;
+            
+            .product__content--title {
+                font-size: 20px;
+                font-weight: 800;
+                width: 50%;
+                margin: 0 ;
+                margin: 10px 0 0 20px;
+                
+            }
+
+            .product__content--go {
+                position: absolute;
+                top:0;
+                right: 0;
+                max-width: 65px;
+                margin: 8px
+            }
+        }
+
+    }
+}

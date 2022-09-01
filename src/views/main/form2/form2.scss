@@ -1,0 +1,28 @@
+.content__container {
+    position: relative;
+    top: -5px;
+    color: #fff;
+    height: 576px;
+    background: url('../../../assets/img/bg_image.png') no-repeat;
+
+    .container__text {
+        position: relative;
+        top: 150px;
+        left: 174px;
+        width: 50%;
+    }
+
+    .text__title {
+        font-weight: 800;
+        font-size: 50px;
+        margin: 0;
+
+    }
+
+    .text__desc {
+        max-width: 667px;
+        line-height: 1.75;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
