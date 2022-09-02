@@ -19,14 +19,14 @@ const Form6 = () => {
                 <div className='issue--bottom__1'>
                     <p className='issue__first--title'>WHPNISSUE</p>
                     <div className="issue__first--img">
-                        <img src={require('../../../assets/img/NewsImg_01.png')} alt='' className='' />
+                        <img src={require('../../../assets/img/NewsImg_00.png')} alt='' className='' />
                         {/* <img src={require('../../../assets/img/NewsObject_03.png')} alt='' className='issue__first--object' /> */}
                     </div>
 
                 </div>
-                <Issue brand={'B BRAND'} brandImg={require('../../../assets/img/NewsImg_04.png')}/>
-                <Issue brand={'C BRAND'} brandImg={require('../../../assets/img/NewsImg_04.png')}/>
-                <Issue brand={'D BRAND'} brandImg={require('../../../assets/img/NewsImg_04.png')}/>
+                <Issue brand={'B BRAND'} brandImg={require('../../../assets/img/NewsImg_01.png')}/>
+                <Issue brand={'C BRAND'} brandImg={require('../../../assets/img/NewsImg_02.png')}/>
+                <Issue brand={'D BRAND'} brandImg={require('../../../assets/img/NewsImg_03.png')}/>
                 <Issue brand={'E BRAND'} brandImg={require('../../../assets/img/NewsImg_04.png')}/>
             </div>
         </div>

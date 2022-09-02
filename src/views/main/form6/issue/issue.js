@@ -1,12 +1,13 @@
 import React from 'react'
 
-const Issue = ({ brand }) => {
+const Issue = ({ brand, brandImg }) => {
     return (
         <div className='issue--bottom__2'>
             <div className='issue--bottom__2--top'>
                 <p>{brand}</p>
             </div>
-            <div className='issue--bottom__2--buttom'></div>
+            <img src={brandImg} alt='' className='issue__seccond--img' />
+
         </div>
     )
 }

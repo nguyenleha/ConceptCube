@@ -58,9 +58,9 @@
     .content__issue--bottom {
         margin-top: 128px;
         display: flex;
+        overflow: hidden;
 
         .issue--bottom__1 {
-            height: 480px;
             width: 20%;
 
             background-color: #ff5500;
@@ -83,6 +83,7 @@
                     display: block;
                     margin: 30px auto;
                     max-width: 145px;
+
                 }
             }
 
@@ -96,15 +97,13 @@
         }
 
         .issue--bottom__2 {
-            height: 480px;
             width: 20%;
-            border: 2px solid #000000;
-            border-left: none;
 
             .issue--bottom__2--top {
                 height: 74px;
                 background-color: #000000;
-                border-bottom: 2px solid #000000;
+                border-top: 2px solid #000000;
+                border-right: 2px solid #000000;
                 color: #ffffff;
                 display: flex;
                 align-items: center;
@@ -121,6 +120,15 @@
                     letter-spacing: normal;
                 }
             }
+
+            img {
+                display: block;
+                width: 100%;
+                border: 2px solid #000000;
+                border-left: none;
+
+            }
+
         }
 
         .issue--bottom__2:nth-child(4) {
