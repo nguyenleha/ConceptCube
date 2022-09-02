@@ -1,6 +1,7 @@
+.body__list--product{
+    margin: 142px 174px 0 174px;
+}
 .content__list--product {
-    margin-left: 174px;
-    margin-right: 174px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -8,8 +9,7 @@
 
 .btn__seemore {
     text-align: center;
-    margin-top: 110px;
-
+    margin-top: 10px;
     button {
         background-color: #fff;
         font-size: 23px;
@@ -23,7 +23,7 @@
 .container__item {
     color: #222222;
     width: 300px;
-    margin-top: 72px;
+    margin-bottom: 72px;
 
     img {
         width: 300px;
@@ -32,7 +32,7 @@
     }
 
     .container__item--title {
-        margin: 29px 0 15px;
+        margin-top: 27px;
         font-size: 18px;
         font-weight: 600;
         letter-spacing: normal;
@@ -43,7 +43,9 @@
         justify-content: space-between;
         color: #666666;
         font-size: 16px;
-
+        p{
+            margin: 0;
+        }
         .icon {
             color: #fa7b26;
         }

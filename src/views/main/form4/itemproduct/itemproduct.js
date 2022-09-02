@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Itemproduct = ({ photo }) => {
     return (
@@ -8,7 +10,7 @@ const Itemproduct = ({ photo }) => {
             <div className='container__item--box'>
                 <p className='price'>2,500 won</p>
                 <p className='heart--count'>
-                    {/* <FontAwesomeIcon icon={faHeart} className='icon' /> */}
+                    <FontAwesomeIcon icon={faHeart} className='icon' />
                     236</p>
             </div>
         </div>

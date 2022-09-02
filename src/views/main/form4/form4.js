@@ -2,9 +2,11 @@ import React from 'react'
 import Itemproduct from './itemproduct/itemproduct'
 import "./form4.scss"
 
+
+
 const Form4 = () => {
     return (
-        <div>
+        <div className='body__list--product'>
             <div className='content__list--product'>
                 <Itemproduct photo={require('../../../assets/img/img_01.png')} />
                 <Itemproduct photo={require('../../../assets/img/img_02.png')} />
