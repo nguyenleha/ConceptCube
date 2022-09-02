@@ -1,0 +1,132 @@
+.content__issue {
+    height: 1143px;
+    background-color: #fccb05;
+    position: relative;
+
+    .issue__icon1 {
+        position: absolute;
+        width: 95px;
+        top: 43px;
+        right: 70px;
+    }
+
+    .issue__icon2 {
+        position: absolute;
+        top: 163px;
+        right: 68px;
+        width: 119px;
+    }
+
+    .content__issue--top {
+        text-align: center;
+        padding-top: 130px;
+
+        .issue__title {
+            margin: 0 auto;
+            height: 36px;
+            font-family: Montserrat;
+            font-size: 45px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.2;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+
+        .issue__desc {
+            max-width: 735px;
+            height: 45px;
+            margin: 0 auto;
+            margin-top: 49px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.6;
+            letter-spacing: normal;
+        }
+
+        .btn__seemore button {
+            margin-top: 50px;
+            background-color: #fccb05;
+        }
+
+    }
+
+    .content__issue--bottom {
+        margin-top: 128px;
+        display: flex;
+
+        .issue--bottom__1 {
+            height: 480px;
+            width: 20%;
+
+            background-color: #ff5500;
+            border: 2px solid #000000;
+
+            .issue__first--title {
+                margin: 0 auto;
+                padding-top: 85px;
+                width: 195px;
+                font-size: 55px;
+                font-weight: 800;
+                word-break: break-all;
+                text-align: center;
+            }
+
+            .issue__first--img {
+                width: 100%;
+
+                img {
+                    display: block;
+                    margin: 30px auto;
+                    max-width: 145px;
+                }
+            }
+
+            .issue__first--object {
+                position: absolute;
+                width: 160px;
+                bottom: -90px;
+                right: -15px;
+                z-index: 9;
+            }
+        }
+
+        .issue--bottom__2 {
+            height: 480px;
+            width: 20%;
+            border: 2px solid #000000;
+            border-left: none;
+
+            .issue--bottom__2--top {
+                height: 74px;
+                background-color: #000000;
+                border-bottom: 2px solid #000000;
+                color: #ffffff;
+                display: flex;
+                align-items: center;
+
+                p {
+                    width: 100%;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 30px;
+                    font-weight: 800;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.67;
+                    letter-spacing: normal;
+                }
+            }
+        }
+
+        .issue--bottom__2:nth-child(4) {
+            .issue--bottom__2--top {
+                background-color: #ff5500;
+            }
+        }
+    }
+}
