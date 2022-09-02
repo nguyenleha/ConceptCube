@@ -1,5 +1,5 @@
 .body__list--product{
-    margin: 142px 174px 0 174px;
+    margin: 142px 160px 0 160px;
 }
 .content__list--product {
     display: flex;
@@ -41,6 +41,7 @@
     .container__item--box {
         display: flex;
         justify-content: space-between;
+        margin-top: 10px;
         color: #666666;
         font-size: 16px;
         p{
@@ -49,5 +50,22 @@
         .icon {
             color: #fa7b26;
         }
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .body__list--product {
+        margin: 142px 54px 0 54px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .body__list--product {
+        margin: 142px 45px 0 45px;
+        .content__list--product {
+            justify-content: center;
+        }
+    }
+    .body__list--product {
+        margin: 142px 50px 0 50px;
+        justify-content: center;
     }
 }
