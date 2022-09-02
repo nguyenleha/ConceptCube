@@ -28,16 +28,17 @@
         }
     }
 
-    .content__video--bottom{
+    .content__video--bottom {
         z-index: 4;
         margin: 0 auto;
         // height: 820px;
 
         padding-bottom: 270px;
         text-align: center;
+
         .video__img {
             width: 65%;
         }
     }
-    
+
 }
