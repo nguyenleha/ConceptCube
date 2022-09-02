@@ -17,17 +17,37 @@ const Form6 = () => {
             </div>
             <div className='content__issue--bottom'>
                 <div className='issue--bottom__1'>
+
                     <p className='issue__first--title'>WHPNISSUE</p>
                     <div className="issue__first--img">
-                        <img src={require('../../../assets/img/NewsImg_00.png')} alt='' className='' />
-                        {/* <img src={require('../../../assets/img/NewsObject_03.png')} alt='' className='issue__first--object' /> */}
+                        <img src={require('../../../assets/img/NewsImg_00.png')} alt='' className='issue__first--img__1' />
+
                     </div>
+                    <img src={require('../../../assets/img/NewsObject_03.png')} alt='' className='issue__first--object__1' />
+
 
                 </div>
-                <Issue brand={'B BRAND'} brandImg={require('../../../assets/img/NewsImg_01.png')}/>
-                <Issue brand={'C BRAND'} brandImg={require('../../../assets/img/NewsImg_02.png')}/>
-                <Issue brand={'D BRAND'} brandImg={require('../../../assets/img/NewsImg_03.png')}/>
-                <Issue brand={'E BRAND'} brandImg={require('../../../assets/img/NewsImg_04.png')}/>
+                <div className='issue--bottom__2'>
+                    <Issue brand={'B BRAND'} brandImg={require('../../../assets/img/NewsImg_01.png')} />
+                    <img src={require('../../../assets/img/NewsObject_04.png')} alt='' className="issue__first--object__2" />
+                </div>
+                <div className='issue--bottom__2'>
+                    <Issue brand={'C BRAND'} brandImg={require('../../../assets/img/NewsImg_02.png')}
+                    />
+                </div>
+                <div className='issue--bottom__2'>
+                    <Issue brand={'D BRAND'} brandImg={require('../../../assets/img/NewsImg_03.png')}
+                    />
+                </div>
+                <div className='issue--bottom__2'>
+                    <Issue brand={'E BRAND'} brandImg={require('../../../assets/img/NewsImg_04.png')} />
+                    <img src={require('../../../assets/img/NewsObject_05.png')} alt='' className="issue__first--object__3" />
+                </div>
+
+
+
+
+
             </div>
         </div>
     )

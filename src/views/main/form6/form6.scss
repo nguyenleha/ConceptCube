@@ -56,16 +56,18 @@
     }
 
     .content__issue--bottom {
-        margin-top: 128px;
+
         display: flex;
-        overflow: hidden;
+        height: 480px;
+        margin: 0 auto;
+        margin-top: 128px;
+        max-width: 1920px;
 
         .issue--bottom__1 {
             width: 20%;
-
             background-color: #ff5500;
             border: 2px solid #000000;
-            
+
             .issue__first--title {
                 margin: 0 auto;
                 padding-top: 85px;
@@ -79,32 +81,33 @@
             .issue__first--img {
                 width: 100%;
 
-                img {
+                .issue__first--img__1 {
                     display: block;
                     margin: 30px auto;
                     max-width: 145px;
-                   
+
                 }
+
             }
 
-            .issue__first--object {
-                position: absolute;
+            .issue__first--object__1 {
+                position: relative;
+                bottom: 40px;
+                left: 10px;
+                float: right;
                 width: 160px;
-                bottom: -90px;
-                right: -15px;
-                z-index: 9;
             }
+
         }
 
         .issue--bottom__2 {
             width: 20%;
-            border: 2px solid #000000;
-            border-left: none;
 
             .issue--bottom__2--top {
                 height: 74px;
                 background-color: #000000;
-                border-bottom: 2px solid #000000;
+                border: 2px solid #000000;
+                border-left: none;
                 color: #ffffff;
                 display: flex;
                 align-items: center;
@@ -122,11 +125,31 @@
                 }
             }
 
-            img {
-                display: block;
-                width: 100%;
-            }
+            .issue__seccond--img {
+                height: 400px;
+                border-bottom: 2px solid #000000;
+                border-right: 2px solid #000000;
+                overflow: hidden;
 
+                img {
+                    margin: 0 auto;
+                    width: 100%;
+                    min-width: 385px;
+
+                }
+            }
+            .issue__first--object__2{
+                position: relative;
+                width: 113px;
+                bottom: 507px;
+                left: 30px;
+            }
+            .issue__first--object__3{
+                position: relative;
+                width: 133px;
+                bottom: 40px;
+                left: -100px;
+            }
         }
 
         .issue--bottom__2:nth-child(4) {
@@ -134,5 +157,6 @@
                 background-color: #ff5500;
             }
         }
+
     }
 }

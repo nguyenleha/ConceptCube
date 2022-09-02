@@ -2,14 +2,15 @@
     position: relative;
     top: -5px;
     color: #fff;
-    height: 576px;
-    background: url('../../../assets/img/bg_image.png') no-repeat;
+    // height: 576px;
+    background: url('../../../assets/img/bg_image.png') ;
+    background-size: cover;
 
     .container__text {
-        position: relative;
-        top: 150px;
-        left: 174px;
-        width: 50%;
+        // position: relative;
+        // top: 150px;
+        // left: 174px;
+        padding: 150px 150px 165px 150px;
     }
 
     .text__title {

@@ -1,0 +1,43 @@
+.content__video {
+    background: url('../../../assets/img/video_bg.jpg');
+    background-size: cover;
+    // padding: 150px 0 250px;
+
+    .content__video--top {
+        // padding: 125px 0 70px 0;
+        padding: 6vw 0 70px 0;
+        text-align: center;
+
+        .video__title {
+            margin: 0;
+            font-size: 2.1vw;
+            font-weight: 800;
+            letter-spacing: 10px;
+        }
+
+        .video__desc {
+            width: 33%;
+            margin: 0 auto;
+            margin-top: 25px;
+            font-size: 1.1vw;
+            line-height: 1.6;
+        }
+
+        .btn__seemore {
+            margin-top: 55px;
+        }
+    }
+
+    .content__video--bottom{
+        z-index: 4;
+        margin: 0 auto;
+        // height: 820px;
+
+        padding-bottom: 270px;
+        text-align: center;
+        .video__img {
+            width: 65%;
+        }
+    }
+    
+}
