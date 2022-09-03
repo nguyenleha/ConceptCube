@@ -23,7 +23,7 @@ const Header = () => {
 
 
             {/* <div className='header__right '></div> */}
-            <div className={Navheader ? 'header__right ' : 'header__right_none'}>
+            <div className={Navheader ? 'header__right_none ' : 'header__right'}>
                 <button>INTRODUCTION</button>
                 <button>SOLUTION</button>
                 <button>RATE PLAN</button>
